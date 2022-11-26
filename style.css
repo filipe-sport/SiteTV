@@ -4,12 +4,27 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 h2{
     background-color:blue;
     color: white;
     padding: 1rem;
+    width: 100%;
 }
 h3{
     background-color: aqua;
     padding: .5rem;
+    margin-top: 5px;
+}
+iframe{
+    height: 250px;   
+    width: 350px; 
+    margin: 10px;
+    border-radius: 10px;   
 }
